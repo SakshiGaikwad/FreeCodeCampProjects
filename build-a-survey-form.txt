@@ -1,0 +1,200 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Survey Form
+    </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <form id="survey-form" method="post">
+
+      <fieldset>
+      <!-- Name input -->
+        <label id="name-label" for="name"> Name </label>
+        <input id="name" type="text" placeholder="Please enter your name" required/>
+
+      <!-- Email input -->
+        <label id="email-label" for="email"> Email </label>
+        <input id="email" placeholder="Please enter your email" type="email" required/>
+
+      <!-- Number input -->
+        <label id = "number-label" for="number"> Number </label>
+        <input id="number" type="number" min="0" max="99" placeholder="Ex: +91 " />
+      <br>
+
+      <hr>
+      <!-- Type Input -->
+        <label id="dropdown-label" for="dropdown"> Shop </label>
+        <select id="dropdown">
+          <option value="">Select One</option>
+          <option value="1">Area 1</option>
+          <option value="2">Area 2</option>
+          <option value="3">Area 3</option>
+        </select>
+      <br>
+      <br>
+
+      <!--Radio button Select -->
+      <fieldset>
+      <legend>
+      <label id="legends">How was your overall shopping experience with us? </label> </legend>
+
+      <label id="rb-label" for="worst"><input id="worst" type="radio" name="experience-type" value="worst" checked /> Worst </label>
+
+      <label id="rb-label" for="bad"><input id="bad" type="radio" name="experience-type" value="bad" /> Bad </label>
+
+      <label id="rb-label" for="average"><input id="average" type="radio" name="experience-type" value="average" /> Average </label>
+
+      <label id="rb-label" for="good"><input id="good" type="radio" name="experience-type" value="good" /> Good </label>
+
+      <label id="rb-label" for="best"><input id="best" type="radio" name="experience-type" value="best" /> Best </label>
+      </fieldset>
+      <br>
+
+      <!-- Checkboxes -->
+      <fieldset>
+      <legend id="legends"> What did you liked in :
+      </legend>
+      <label id="label-allcheckbox"><strong>Electronic Product</strong></label>
+      <br>
+      <input id="one" type="checkbox" required name="" value="speed" /><label for=""> Speed </label>
+      <input id="two" type="checkbox" required name="" value="quality" /><label for=""> Quality </label>
+      <input id="three" type="checkbox" required name="" value="price" /><label for=""> Price </label>
+      <input id="four" type="checkbox" required name="" value="everything" /><label for=""> Everything </label>
+      <input id="five" type="checkbox" required name="" value="nothing" /><label for=""> Nothing </label>
+      <br>
+
+      <label id="label-allcheckbox"><strong>Stationary Product</strong></label>
+      <br>
+      <input id="one" type="checkbox" required name="" value="quality" /><label for=""> Quality </label>
+      <input id="two" type="checkbox" required name="" value="price" /><label for=""> Price </label>
+      <input id="three" type="checkbox" required name="" value="Everything" /><label for=""> Everything </label>
+      <input id="four" type="checkbox" required name="" value="Nothing" /><label for=""> Nothing </label>
+      <br>
+
+      </fieldset>
+      <br>
+    <hr>
+
+    <br>
+    
+      <!-- Textarea -->
+      <center><label id="textarea-label">To what extent does our company care about customer satisfaction?</label>
+      <br>
+      <textarea rows=5 cols=50 >
+      </textarea>
+      <br>
+      <br>
+      <input type="submit" id="submit" ></center>
+      </fieldset>
+
+    </form>
+
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color: bisque;
+  margin:0;
+  padding: 0;
+}
+
+#title{
+  color: navy;
+  font-family: Arial;
+  text-align: center;
+  margin: 10px;
+}
+
+#description{
+  text-align: center;
+  font-size: 12px;
+  color: grey;
+}
+
+#name-label, #email-label,number-label{
+  margin-left: 20px;
+  padding: 4px;
+}
+#name,#email,#number{
+  width: 30vh;
+  height: 6vh;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 7px;
+}
+
+#dropdown-label{
+  margin-left: 300px;
+}
+#dropdown{
+  width: 20vh;
+  height: 5vh;
+  background-color: #edaf96;
+  border-radius: 20px;
+  padding-left: 18px;
+}
+
+hr{
+  border: 1px solid navy;
+}
+
+#legends{
+  font-size: 16px;
+  color: navy;
+}
+
+#rb-label{
+  font-size: 15px;
+}
+
+#worst, #bad, #average, #good, #best{
+  margin-left: 13vh;
+}
+
+#label-allcheckbox{
+  margin-left: 80px;
+  color: navy;
+}
+
+#one, #two, #three,  #four, #five{
+  margin-top: 10px;
+  margin-left: 13vh;
+  margin-bottom: 20px;
+}
+
+#textarea-label{
+  color: navy;
+}
+
+textarea{
+  margin-top: 10px;
+  background-color: #fabaa2;
+  padding: 10px;
+  color: grey;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#submit{
+  background-color: navy;
+  color: bisque;
+  height: 7vh;
+  width: 50vh;
+  font-size: 1rem;
+}
+
+** end of undefined **
+
