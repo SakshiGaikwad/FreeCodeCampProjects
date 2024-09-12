@@ -1,0 +1,202 @@
+** start of undefined **
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main">
+
+      <h1 id="title">Dr. A.P.J. Abdul Kalam</h1>
+      <p>The Missile Man of India</p>
+
+      <div id="img-div">
+        <img id="image" src="https://monomousumi.com/wp-content/uploads/abdul.jpeg">
+        <figcaption id="img-caption"> 
+         A Picture of Dr. APJ Abdul Kalam
+        </figcaption>
+      </div>
+
+      <blockquote>
+        <p>
+          <i>“Dreams are not what you see when you sleep, it is something that does not let you sleep”</i>
+        </p>
+        <cite>-- Dr. APJ Abdul Kalam</cite>
+      </blockquote>
+
+      <h3 id="tribute-info">Timeline:</h3>
+      
+        <ul>
+          <li>
+            <strong>1931</strong> : Born on October 15 in Rameswaram, Tamil Nadu.
+          </li>
+          <li>
+            <strong>1954</strong> : Graduated from Saint Joseph’s College, Tiruchirappalli.
+          </li>
+          <li>
+            <strong>1954</strong> : Graduated from Saint Joseph’s College, Tiruchirappalli.
+          </li>
+          <li>
+            <strong>1960</strong> : Joined the Aeronautical Development Establishment of the Defence Research and Development Organisation (DRDO).
+          </li>
+          <li>
+            <strong>1969</strong> : Transferred to the Indian Space Research Organisation (ISRO) and became the project director of India’s first Satellite Launch Vehicle (SLV-III).
+          </li>
+          <li>
+            <strong>1982</strong> : Rejoined DRDO and led the Integrated Guided Missile Development Program (IGMDP).
+          </li>
+          <li>
+            <strong>1992-1999</strong> : Served as the Chief Scientific Adviser to the Prime Minister and the Secretary of the DRDO.
+          </li>
+          <li>
+            <strong>1998</strong> : Played a pivotal role in India’s nuclear tests at Pokhran, making India a nuclear power.
+          </li>
+          <li>
+            <strong>2002-2007</strong> : Served as the President of India.
+          </li>
+          <li>
+            <strong>2015</strong> : Passed away on July 27 in Shillong, Meghalaya, while delivering a lecture.
+          </li>
+        </ul>
+  
+<hr>
+
+    <h3 id="tribute-info">Awards and Achievements:</h3>
+      
+        <ul>
+          <li>
+            Kalam was honoured with the prestigious <strong>‘Bharat Ratan,’ ‘Padma Vibhushan,’</strong> and <strong>‘Padma Bhushan’</strong> from the Government of India.
+          </li>
+          <li>
+            He was bestowed upon the <strong>‘Indira Gandhi Award for National Integration’</strong> by the Government of India in 1997.
+          </li>
+          <li>
+            He was the recipient of <strong>Veer Savarkar Award.</strong>
+          </li>
+          <li>
+            In 2000, he was bestowed with <strong>‘Ramanujan Award’</strong> by the <strong>‘Alwars Research Centre.’</strong>
+          </li>
+          <li>
+           In 2007, he received the <strong>‘Kings Charles II Medal’</strong> from the Royal Society.
+The ASME Foundation, USA, honoured Kalam with the <strong>Hoover Medal</strong>.
+          </li>
+          <li>
+            He also received <strong>honorary doctorate from 40 universities.</strong>
+          </li>
+          <li>
+            The United Nations <strong>recognized Kalam’s 79th birthday as World Students’ Day</strong>.
+          </li>
+
+          <li>
+            In 2003 and 2006, he was <strong>nominated</strong> for the <strong>‘MTV Youth Icon of the Year.’</strong>
+          </li>
+          
+        </ul>
+
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">More Info</a>
+    </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  font-family: 'Serif';
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Candara'
+}
+
+#main{
+  margin: 10px 4px;
+  padding: 5px;
+  border-radius: 10px;
+  background: #eedada;
+}
+
+#title{
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+#img-div{
+  background: white;
+  padding: 10px 15px 5px 15px;
+  margin: 0px;
+}
+
+#image{
+  object-fit: scale-down;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption{
+  margin: 5px 0px 5px 0px;
+}
+
+#img-caption{
+  color: grey;
+  font-size: 12px;
+}
+
+cite{
+  margin-left: 210px;
+}
+
+blockquote{
+  background: white;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#tribute-info{
+  font-family: 'Serif';
+  font-weight: 600;
+  text-align: left;
+  margin-left: 20px;
+  color: brown;
+  font-size: 25px;
+}
+
+ul{
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Perpetua';
+}
+li{
+  margin: 15px 0px;
+}
+strong{
+  color: brown;
+}
+
+a{
+  color: brown;
+  font-family: 'Cambria';
+  text-decoration: none;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+
+a:hover{
+  background: pink;
+}
+
+** end of undefined **
+
